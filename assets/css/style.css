@@ -4,9 +4,9 @@
 /* VARIABLES */
 :root {
     --c-dark: #212529;
-    --c-brand: #4e57d4;
-    --c-brand-light: #6970dd;
-    --c-brand-rgb: 78, 87, 212;
+    --c-brand: #453A30;
+    --c-brand-light: #D5CCC3;
+    --c-brand-rgb: 69, 58, 48;
     --c-body: #727272;
     --font-base: "ClashDisplay", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
