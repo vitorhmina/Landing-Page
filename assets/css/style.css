@@ -1,7 +1,5 @@
-/* FONTS */
 @import url(../css/clash-display.css);
 
-/* VARIABLES */
 :root {
     --c-dark: #212529;
     --c-brand: #4e57d4;
@@ -13,7 +11,6 @@
     --transition: all 0.5s ease;
 }
 
-/* RESET & HELPERS */
 body {
     font-family: var(--font-base);
     line-height: 1.7;
@@ -50,7 +47,6 @@ img {
     box-shadow: var(--box-shadow);
 }
 
-/* IMAGE ZOOM */
 .image-zoom {
     position: relative;
     /* overflow: hidden; */
@@ -69,8 +65,6 @@ img {
     transform: scale(1.1);
 }
 
-
-/* NAVBAR */
 .navbar {
     box-shadow: var(--box-shadow);
 }
@@ -88,8 +82,6 @@ img {
     color: var(--c-brand);
 }
 
-
-/* BTN */
 .btn {
     font-weight: 600;
     font-size: 14px;
@@ -110,16 +102,12 @@ img {
     color: white;
 }
 
-
-/* HERO */
 #hero {
     background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../images/hero-1.jpg);
     background-position: center;
     background-size: cover;
 }
 
-
-/* SECTION TITLE */
 .section-title {
     margin-bottom: 60px;
 }
@@ -137,8 +125,6 @@ img {
     margin-right: auto;
 }
 
-
-/* ICONBOX */
 .iconbox {
     width: 70px;
     height: 70px;
@@ -151,7 +137,6 @@ img {
     flex: none;
 }
 
-/* SERVICE */
 .service {
     position: relative;
     overflow: hidden;
@@ -187,14 +172,12 @@ img {
     color: white;
 }
 
-/* COUNTER */
 #counter {
     background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/counter.jpg);
     background-position: center;
     background-size: cover;
 }
 
-/* PORTFOLIO */
 .portfolio-item .iconbox {
     background-color: var(--c-brand);
     color: white;
@@ -210,7 +193,6 @@ img {
     top: 50%;
 }
 
-/* REVIEW */
 .review small {
     font-weight: 600;
     text-transform: uppercase;
@@ -231,7 +213,6 @@ img {
     transform: rotate(45deg);
 }
 
-/* TEAM */
 .team-member-content {
     background-color: var(--c-brand);
     position: absolute;
@@ -249,7 +230,6 @@ img {
     bottom: 24px;
 }
 
-/* CONTACT */
 #contact {
     position: relative;
     z-index: 2;
@@ -277,7 +257,6 @@ img {
     border-color: var(--c-brand);
 }
 
-/* FOOTER */
 footer {
     padding-top: 120px;
 }
