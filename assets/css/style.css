@@ -63,6 +63,8 @@ img {
 
 .image-zoom-wrapper img{
      transition: var(--transition);
+     width: 405px;
+     height: 485px;
 }
 
 .image-zoom:hover .image-zoom-wrapper img {
